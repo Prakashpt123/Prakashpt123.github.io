@@ -43,6 +43,12 @@ nav .menu{
 .menu ul li:first-child{
   margin-left: 0px;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .menu ul li a{
   text-decoration: none;
   color: rgb(54, 19, 134);
