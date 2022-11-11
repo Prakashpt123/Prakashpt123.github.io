@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+  color: rgb(223, 217, 217);
+  background: rgb(41, 2, 31);
+}
+nav{
+  position: fixed;
+  background: #110e0e;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: blue;
+
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: rgb(54, 19, 134);
+  font-size: 18px;
+  font-weight:500;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.menu ul li a{
+  background: #fff;
+  color:rgb(48, 13, 202);
+}
+.img::before{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: 'D:\website\m.jpeg';
+}
+.center{
+  width: 1366;
+  height: 100px;;  
+}
+.centers{
+  background-color: rgb(19, 71, 71);
+
+}
+.centers .title{
+  color:white;
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+ padding-top: 10px;
+}
+.centers .sub_title{
+  
+  color: white;
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+  padding-top: 40px;
+  
+}
+.centers.para p{
+  
+  color:white;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  text-align: justify;
+}
+.centers .para p{
+  color: white;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  padding-top: 40px;
+  text-align: justify,center;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+#header{
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 30px;
+  padding-top: 50px;
+
+
+}
+.img .center .a{
+  margin-left: auto;
+  margin-right: auto;width: 50%;
+  padding-top: 50px;
+}
+.center .marquee {
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, 'Times New Roman',Times,  serif;
+  font-weight: bold;
+  color:white;
+  background-color:rgb(19, 71, 71)
+}
+/* Home button */
+#i{
+  width: 1680px;
+  height:700px ;
+
+}
+.home{
+  background:rgb(34, 23, 51);
+  
+  margin: 0%;
+  padding: 0%;
+}
+#m h2{
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 30px;
+  padding-top: 50px;
+
+}
+.home p{
+  color: white;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  padding-top: 40px;
+  width: 90%;
+  text-align: justify,center;
+  margin-left: 50px;
+  font-weight: 500;
+}
+/* Learn More */
+.i{
+  background-color: rgb(204, 180, 150);
+}
+.l{
+  width: 1348.5px;
+  height: 700px;
+  
+}
+#p h3{
+  color: rgb(63, 21, 112);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.pa p{
+  color: #000;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  padding-top: 45px;
+  text-align: justify,center;
+  font-weight: 400;
+  margin-left: 100px;
+  width:90%;
+}
+.pa h4{
+  color: rgb(12, 11, 12);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.q{
+  margin-left:35%;
+  margin-right:50%;
+  width: 50%;
+  padding-top:50px;
+  padding-bottom: 30px;
+}
+.e h5{
+  color: rgb(19, 17, 22);
+  font-size: 28px;
+  text-align: left;
+  margin-top: 30px;
+  font-weight:500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  width: 90%;
+}
+/* Contact us */
+.contact{
+    text-align: center;
+    background-color: rgb(22, 7, 43);
+}
+.contact input, textarea{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-color: #000;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+  background-color: rgb(243, 241, 247);
+}
+.contact  button{
+    border-radius: 12px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.contact h2{
+  color: #fff;
+}
+
+
